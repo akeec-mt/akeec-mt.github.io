@@ -1,4 +1,4 @@
-@@charset "UTF-8";
+@charset "UTF-8";
 
 /* 共通部分
 -------------------- */
@@ -226,4 +226,12 @@ footer {
 footer p {
   color: #fff;
   font-size: 0.875rem;
+}
+
+/* モバイル版
+--------------------*/
+@media (max-width: 600px) {
+  h1 {
+    color: #0bd;
+  }
 }
